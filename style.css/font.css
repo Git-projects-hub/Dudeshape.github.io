@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Red Hat';
+    src: url(../fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Red Hat';
+    src: url(../fonts/Red_Hat_Display/RedHatDisplay-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Red Hat';
+    src: url(../fonts/Red_Hat_Display/RedHatDisplay-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Red Hat';
+    src: url(../fonts/Red_Hat_Display/RedHatDisplay-BoldItalic.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FA';
+    src: url(../fonts/Webfonts/Webfonts/fa-regular-400.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FAS';
+    src: url(../fonts/Webfonts/Webfonts/fa-solid-900.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'FAD';
+    src: url(../fonts/Webfonts/Webfonts/fa-duotone-900.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'FAB';
+    src: url(../fonts/Webfonts/Webfonts/fa-brands-400.ttf);
+}
+.profile{
+    font-family: 'FA';
+    font-weight: 400;
+    width: 24px;
+    height: 24px;
+    color: #222222 ;
+    font-style: normal;
+}
+.fa-user::before{
+
+content: '\f007';
+
+}
+.profile:hover{
+    color: gold;
+}
+.cart{
+    font-family: 'FA';
+    font-weight: 400;
+    width: 24px;
+    height: 24px;
+    color: #222222 ;
+    font-style: normal;
+}
+.fa-shopping-cart::before{
+    content: '\f07a';
+}
+.cart:hover{
+    color: gold;
+}
+.list{
+    font-family: 'FA';
+    font-weight: 400;
+    width: 24px;
+    height: 24px;
+    color: #222222 ; 
+    font-style: normal;  
+}
+.fa-stream::before{
+content: '\f550';
+}
+.list:hover{
+    color: gold;
+}
+.search{
+    font-family: 'FA';
+    font-weight: 400;
+    width: 24px;
+    height: 24px;
+    color: white ;
+    font-style: normal;  
+}
+.search:hover{
+    color: gold;
+}
+.fa-search::before{
+    content: '\f002';
+}
+.arrow{
+    font-family: 'FA';
+    font-weight: 400;
+    flex-shrink: 0;
+    color: #222222 ;
+    font-style: normal;
+    font-size: 30px;
+}
+.arrow:hover{
+    color: gold;
+}
+.fa-chevron-left::before{
+content: '\f053';
+}
+.fa-chevron-right::before{
+    content: '\f054';
+}
+.arrowR{
+    font-family: 'FA';
+    font-weight: 400;
+    flex-shrink: 0;
+    color: #222222 ;
+    font-style: normal;
+}
+.arrowR:hover{
+    color: gold;
+}
+.fa-arrow-right::before{
+    content: '\f061';
+}
+
+.star{
+    font-family: 'FAS';
+    font-weight: 900;
+    color: #FFC046;
+    font-style: normal;
+    transition: 0.5s;
+}
+.fa-star::before{
+content: '\f005';
+}
+.half-star{
+    font-family: 'FAD';
+    font-weight: 900; 
+    position: relative; 
+    font-style: normal;
+    
+}
+.fa-star-half::before{
+    content: '\f089';
+    position: absolute;
+    left: 2px;
+    top: -1px;
+    color: #FFC046;
+}
+.fa-star-half::after{
+    content: '\10f089';
+    position: absolute;
+    left: 2px;
+    top: -1px;
+    color: #FFC046 ; 
+    opacity: 0.4;
+}
+.fa-star:hover::before{
+    color: red;
+}
+.fa-star-half:hover::before{
+    color: red;
+}
+.fa-star-half:hover::after{
+    color: red;
+    opacity: 1; 
+}
+.leftA{
+    font-family: 'FA';
+    font-weight: 400;
+    font-style: normal; 
+    color: #6FB587;
+    opacity: 0.2;
+    font-size: 30px;
+}
+.fa-circle-chevron-left::before{
+    content: '\f137'; 
+}
+.rightA{
+    font-family: 'FA';
+    font-weight: 400;
+    font-style: normal;  
+    color: #6FB587; 
+    font-size: 30px;
+    opacity: 0.2;
+}
+.fa-circle-chevron-right::before{
+    content: '\f138';
+}
+.rightA:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.leftA:hover{
+    opacity: 1;
+    cursor: pointer; 
+}
+
+.facebook{
+    font-family: 'FAB';
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+}
+.fa-facebook-f::before{
+    content: '\f39e';
+}
+.facebook:hover{
+    color: white;
+}
+.twitter{
+    font-family: 'FAB';
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+}
+.fa-twitter::before{
+    content: '\f099';
+}
+.twitter:hover{
+    color: white;
+    
+}
+.instagram{
+    font-family: 'FAB';
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+}
+.instagram:hover{
+    color: white;
+    border-radius: 4px;
+    background: linear-gradient(164deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+.fa-instagram::before{
+ content: '\f16d';   
+}

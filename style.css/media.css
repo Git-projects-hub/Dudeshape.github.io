@@ -1,0 +1,140 @@
+@media (max-width:1228px){
+    .amazing__right-text::after{
+        top: 120px;
+        
+    }
+    .top__arrow-absolute{
+        
+        
+    }
+}
+@media (max-width:1116px){
+    .amazing__right-text::after{
+        top: 150px;
+        
+    }
+}
+@media (max-width:1034px){
+    .amazing__right-text::after{
+        top: 183px;
+        
+    }
+.popular__blocks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popular__topbox{
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+}
+@media (max-width:992px){
+    .amazing .container{
+        flex-direction: column;
+        text-align: center;
+    }
+.beauty .container{
+    flex-direction: column-reverse;
+    text-align: center;
+    align-items: center;
+}
+.beauty__left .button{
+    margin: 0 auto;
+}
+    .stars,
+    .next{
+        justify-content: center;
+    }
+    .amazing__right-text::before,
+    .amazing__right-text::after{
+        display: none;
+    }
+    .footer__top-section{
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    .top__img-absolute{
+        display: none;
+    }
+    .top{
+        background: url(../img/top.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footer__nav .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+.footer__socials{
+    justify-content: center;
+}
+.logos__list{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
+@media (max-width:700px){
+    .header__nav .container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .top__arrow-absolute{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width:630px){
+    
+    .amazing__left img{
+        max-width: 583px;
+         width: 100%;
+    }
+    
+   .numbers .container{
+    flex-direction: column;
+   }
+}
+
+@media (max-width:550px){
+.popular__block-bottom{
+    flex-direction: column;
+    gap: 50px;
+}
+.popular__block-buttons{
+    flex-direction: column;
+}
+.button2{
+    min-width: 155px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header__list{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+@media(max-width:400px){
+    .footer__input,
+    .top__input{
+        width: 300px;
+    }
+
+.input__absolute{
+    left: 260px;
+}
+.top__head{
+    text-align: center;
+}
+}
